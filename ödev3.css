@@ -1,0 +1,38 @@
+body {
+    background-image: url(../patika/img/yemek.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+section.recipe img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.recipe ul li {
+    list-style-type: none;
+    margin: 5px 0;
+}
